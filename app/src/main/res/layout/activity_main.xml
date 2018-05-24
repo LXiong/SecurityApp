@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="debug check" />
+
+    <Button
+        android:id="@+id/btn_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="root check" />
+
+    <Button
+        android:id="@+id/btn_emulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emulator check" />
+
+
+    <Button
+        android:id="@+id/btn_hook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hook check" />
+
+    <Button
+        android:id="@+id/btn_va"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="va check" />
+
+    <Button
+        android:id="@+id/btn_multi_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multi_open check" />
+
+</LinearLayout>
